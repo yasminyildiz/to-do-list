@@ -1,0 +1,68 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+#root {
+  display: flex;
+  justify-content: center;
+}
+
+.addTaskContainerDiv {
+  width: 500px !important;
+}
+.addTaskDiv {
+  font-family: Montserrat, Arial, FontAwesome;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.addTaskDiv label {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(108, 108, 108, 1);
+}
+
+.addTaskDiv button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(184, 130, 241);
+  border-color: unset;
+  color: white;
+  border-radius: 4px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+td {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: center;
+  /* border: unset !important; */
+  margin-bottom: 6px;
+}
+
+img {
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+}
+
+/* table {
+  width: 500px !important;
+} */
